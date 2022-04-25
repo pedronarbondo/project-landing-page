@@ -1,3 +1,82 @@
 body {
-    background-color: green;
+    font-family: Roboto, Arial, sans-serif;
+    color: #eab676;
+    background-image: url("../img/background-pug.jpeg");
+}
+
+.top {
+    height: 550px;
+    background-image: linear-gradient(to right, #7070db, #063970);
+}
+.header-logo {
+    margin-left: 26px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.hero-image img{
+    clip-path: circle();
+    width: 350px;
+    margin: auto;
+}
+
+.button-explore button {
+    background-color: #ff4d4d;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-weight: 550;
+    
+}
+.button-explore button:hover {
+    background-color: #eab676;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: #eab676;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    gap: 24px;
+    margin-right: 16px;
+}
+
+.hero {
+    padding-top: 40px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.hero-text {
+    font-weight: 600;
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 650px;
+    justify-content: space-evenly;
+}
+
+.hero-text h1, {
+    font-size: 40px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
 }
