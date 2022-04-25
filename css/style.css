@@ -80,3 +80,36 @@ a {
     display: flex;
     align-items: center;
 }
+
+.middle-title {
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.dog-photos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dog-photos img {
+flex: 1;
+width: 450px;
+height: 450px;
+object-fit: cover;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+.dog-photos {
+    display: flex;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+}
