@@ -1,2 +1,2 @@
-# proyect-landing-page
-Last CSS-specific proyect from The Odin Project.
+# project-landing-page
+Last CSS-specific project from The Odin Project.
