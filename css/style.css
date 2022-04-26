@@ -142,7 +142,9 @@ border-radius: 10px;
     font-weight: 600;
     text-shadow: 2px 2px black;
     font-size: 30px;
+    font-style: italic;
 }
+
 
 .text-image img {
     max-width: 400px;
@@ -158,4 +160,67 @@ border-radius: 10px;
 .signature {
     align-self: flex-end;
     text-shadow: 2px 2px black;
+    font-size: 24px;
+}
+
+.donate-div {
+    width: auto;
+    height: 350px;
+    background-image: linear-gradient(to left, #7070db, #063970);
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-container {
+    margin: auto;
+    background-image: url("../img/money.jpg");
+    object-fit: cover;
+    height: 120px;
+    width: 70%;
+    border-radius: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 3px inset;
+}
+
+.donate-text {
+    max-width: 400px;
+    text-shadow: 2px 2px black;
+    font-weight: 700;
+}
+.donate-button {
+    margin: auto;
+}
+
+.donate {
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.donate:hover {
+background-color: #66cc00;
+color: white;
+}
+
+.footer {
+    width: auto;
+    height: 70px;
+    background-color: #003d66;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    color: white;
 }
