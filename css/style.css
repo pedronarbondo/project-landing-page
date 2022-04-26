@@ -2,6 +2,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
     color: #eab676;
     background-image: url("../img/background-pug.jpeg");
+    margin: 0;
 }
 
 .top {
@@ -112,4 +113,49 @@ border-radius: 10px;
     flex: 1;
     max-width: 400px;
     text-align: center;
+}
+
+.quote {
+    margin-top: 15px;
+    height: 700px;
+    background-image: url(../img/beach.jpg);
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+}
+.text-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.memo-quote {
+    max-width: 500px;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.text-image img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.memo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    align-self: flex-end;
+    text-shadow: 2px 2px black;
 }
