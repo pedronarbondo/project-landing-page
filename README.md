@@ -1,4 +1,6 @@
 # project-landing-page
+See it live @ https://pedronarbondo.github.io/project-landing-page/
+
 Last CSS-specific project from The Odin Project.
 Please do note that this project is meant to evaluate layout capabilities
 and not design skills. After checking the landing page on different
